@@ -13,6 +13,8 @@
 		6BB7F0A1224D616D00B93B9B /* MyNotesApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6BB7F09F224D616D00B93B9B /* MyNotesApp.xcdatamodeld */; };
 		6BB7F0A3224D616D00B93B9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BB7F0A2224D616D00B93B9B /* Assets.xcassets */; };
 		6BB7F0A6224D616D00B93B9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB7F0A4224D616D00B93B9B /* LaunchScreen.storyboard */; };
+		6BB7F0AE224D6B8300B93B9B /* VCListNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB7F0AD224D6B8300B93B9B /* VCListNotes.swift */; };
+		6BB7F0B0224D6F7D00B93B9B /* TVCNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB7F0AF224D6F7D00B93B9B /* TVCNotes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6BB7F0A2224D616D00B93B9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BB7F0A5224D616D00B93B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BB7F0A7224D616D00B93B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BB7F0AD224D6B8300B93B9B /* VCListNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCListNotes.swift; sourceTree = "<group>"; };
+		6BB7F0AF224D6F7D00B93B9B /* TVCNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCNotes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				6BB7F098224D616D00B93B9B /* AppDelegate.swift */,
 				6BB7F09A224D616D00B93B9B /* ViewController.swift */,
 				6BB7F09C224D616D00B93B9B /* Main.storyboard */,
+				6BB7F0AF224D6F7D00B93B9B /* TVCNotes.swift */,
+				6BB7F0AD224D6B8300B93B9B /* VCListNotes.swift */,
 				6BB7F0A2224D616D00B93B9B /* Assets.xcassets */,
 				6BB7F0A4224D616D00B93B9B /* LaunchScreen.storyboard */,
 				6BB7F0A7224D616D00B93B9B /* Info.plist */,
@@ -141,7 +147,9 @@
 			files = (
 				6BB7F09B224D616D00B93B9B /* ViewController.swift in Sources */,
 				6BB7F0A1224D616D00B93B9B /* MyNotesApp.xcdatamodeld in Sources */,
+				6BB7F0AE224D6B8300B93B9B /* VCListNotes.swift in Sources */,
 				6BB7F099224D616D00B93B9B /* AppDelegate.swift in Sources */,
+				6BB7F0B0224D6F7D00B93B9B /* TVCNotes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
